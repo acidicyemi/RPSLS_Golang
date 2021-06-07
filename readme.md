@@ -1,13 +1,14 @@
 
 # RPSLS
 
-golang implementation of ROCK PAPPER SCISSORS LIZARD AND SPOCK
+golang implementation of ROCK PAPPER SCISSORS LIZARD AND SPOCK.
+This app exposes four endpoint
 
 
 ## Acknowledgements
 
  - [How to play Rock Paper Scissors Lizard Spock](https://www.youtube.com/watch?v=zjoVuV8EeOU)
- - [ROCK PAPER SCISSORS SPOCK LIZARD](http://www.samkass.com/theories/RPSSL.html)
+ - [ROCK PAPER SCISSORS SPOCK LIZARD THOERY](http://www.samkass.com/theories/RPSSL.html)
 ![Logo](https://content.instructables.com/ORIG/FIU/AIWE/I7Q0TCUT/FIUAIWEI7Q0TCUT.jpg)
 
     
@@ -22,7 +23,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd RPSLS_Golang
 ```
 
 Create the dockerfile image
@@ -36,6 +37,10 @@ Start A Container from the Image where the 8064 is the port you want to expose o
 ```bash
   docker run -d -p 8086:8084 game-service
 ```
+## Documentation
+
+[POSTMAN DOCUMENTATION](https://documenter.getpostman.com/view/5487875/TzY6AuM9
+)
 
   
 ## License
